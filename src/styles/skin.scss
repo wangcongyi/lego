@@ -1,0 +1,49 @@
+// ------------ skin ------------
+.s-require {
+  position: relative;
+  &::before {
+    position: absolute;
+    content: '* ';
+    color: #f00;
+    z-index: 10;
+    left: -10px;
+  }
+}
+
+.s-gray {
+  color: #ccc;
+}
+
+.s-br {
+  margin-top: 20px !important;
+}
+
+.s-danger {
+  color: #f00;
+}
+
+.s-link {
+  color: #f30;
+  text-decoration: underline;
+  padding: 2px 0;
+  cursor: pointer;
+
+  &:hover {
+    color: #f30;
+    text-decoration: none;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 4'%3E%3Cpath fill='none' stroke='%23ff3300' d='M0 3.5c5 0 5-3 10-3s5 3 10 3 5-3 10-3 5 3 10 3'/%3E%3C/svg%3E")
+      repeat-x 0 100%;
+    background-size: 20px auto;
+    animation: waveMove 1s infinite linear;
+  }
+}
+
+@keyframes waveMove {
+  from {
+    background-position: 0 100%;
+  }
+
+  to {
+    background-position: -20px 100%;
+  }
+}

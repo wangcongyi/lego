@@ -1,0 +1,53 @@
+.f-clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: ' ';
+    clear: both;
+    height: 0;
+  }
+}
+
+.f-oh {
+  overflow: hidden;
+}
+
+.f-fr {
+  float: right;
+}
+
+.f-txc {
+  text-align: center;
+}
+
+.f-pointer {
+  cursor: pointer;
+}
+
+.f-block {
+  display: block;
+}
+
+.f-abs {
+  position: absolute;
+}
+
+.f-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%);
+}
+
+.f-x-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.f-y-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}

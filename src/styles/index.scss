@@ -1,0 +1,20 @@
+@import './variables.scss';
+@import './mixin.scss';
+@import './transition.scss';
+@import './element-ui.scss';
+@import './sidebar.scss';
+@import './reset.scss';
+@import './base.scss';
+@import './skin.scss';
+
+#app {
+  height: 100%;
+}
+
+.app-main {
+  min-height: 100%;
+}
+
+.app-container {
+  padding: 20px;
+}

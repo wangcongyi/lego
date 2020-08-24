@@ -1,0 +1,8 @@
+node_modules/*
+dist/*
+deployed/*
+.vscode/*
+axrue/*
+yarn-error.log
+logs/*
+.idea/*
